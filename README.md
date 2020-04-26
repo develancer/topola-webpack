@@ -1,6 +1,6 @@
 # topola-webpack
 
-This is a very simple genealogy viewer based on [topola](https://github.com/PeWu/topola). Its main purpose is to allow deploying of small, self-contained interactive genealogy trees on a generic HTTP server.
+This is a very simple genealogy viewer based on [topola](https://github.com/PeWu/topola). Its main purpose is to allow deploying of small, self-contained interactive genealogy trees to a generic HTTP server.
 
 Essential part of the code is based on the [“Animations” example](https://stackblitz.com/edit/topola-animations) from [topola](https://github.com/PeWu/topola).
 
@@ -10,7 +10,7 @@ Features:
 
 ## Usage
 
-You will need *npm*, but only for building the bundle.
+You *will* need npm, but only for building the bundle.
 
 After cloning/copying the repository, run
 ```

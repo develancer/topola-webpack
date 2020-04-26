@@ -5,10 +5,6 @@ import entries from './entries.json';
 
 function render(chart, indiInfo) {
   const hashParts = document.location.hash.split('#')
-  console.log({
-    startIndi: indiInfo ? indiInfo.id : hashParts[1],
-    baseGeneration: indiInfo ? indiInfo.generation : parseInt(hashParts[2], 10)
-  });
   const info = chart.render({
     startIndi: indiInfo ? indiInfo.id : hashParts[1],
     baseGeneration: indiInfo ? indiInfo.generation : parseInt(hashParts[2], 10)

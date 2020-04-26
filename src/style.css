@@ -1,0 +1,10 @@
+.container {
+  width: 600px;
+  height: 600px;
+  display: inline-block;
+  overflow: auto;
+}
+
+.node {
+  cursor: pointer;
+}

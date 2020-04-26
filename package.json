@@ -1,0 +1,16 @@
+{
+  "name": "topola-webpack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^5.7.0",
+    "topola": "^2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "json-loader": "^0.5.7",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ $# -ne 2 ] ; then
-  echo "USAGE: $0 input.ged output.html"
+  echo "USAGE: $0 input.ged index.html"
   exit 1
 fi
 npm install && \

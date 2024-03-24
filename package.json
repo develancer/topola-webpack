@@ -3,16 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "d3": "^5.7.0",
-    "html-webpack-inline-source-plugin": "1.0.0-beta.2",
-    "html-webpack-plugin": "^4.5.2",
-    "topola": "^2.0.0"
+    "d3": "^7.8.5",
+    "topola": "^3.6.1"
   },
   "devDependencies": {
-    "css-loader": "^3.5.3",
-    "json-loader": "^0.5.7",
+    "css-loader": "^5.2.7",
+    "html-webpack-inline-source-plugin": "1.0.0-beta.2",
+    "html-webpack-plugin": "^4.5.2",
     "style-loader": "^1.2.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^4.47.0",
+    "webpack-cli": "^4.10.0"
   }
 }

@@ -14,8 +14,8 @@ You *will* need npm, but only for building the bundle.
 
 After cloning/copying the repository, run
 ```
-./build.sh mydata.ged
+./build.sh mydata.ged output.html
 ```
-where `mydata.ged` is a path to your personal genealogical data in GEDCOM format.
+where `mydata.ged` is a path to your personal genealogical data in GEDCOM format, and `output.html` is where you want your standalone HTML file to appear.
 
-**That's it!** The bundle (HTML+JS) will be ready in `dist` subdirectory. You can either copy it to the destination server or simply point the directory root to this subdirectory.
+**That's it!** The bundle (HTML+JS) will be ready under the given path. You can either copy it to the destination server or simply open it in a browser.

@@ -10,7 +10,7 @@ Features:
 
 ## Usage
 
-You *will* need npm, but only for building the bundle.
+You *will* need Node.js 18.12 or newer and npm, but only for building the bundle.
 
 After cloning/copying the repository, run
 ```

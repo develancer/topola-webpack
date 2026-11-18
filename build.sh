@@ -4,7 +4,7 @@ if [ $# -ne 2 ] ; then
   exit 1
 fi
 npm install && \
-  node_modules/.bin/parse-gedcom "$1" > src/entries.json && \
+  node_modules/.bin/parse-gedcom < "$1" > src/entries.json && \
   node_modules/.bin/webpack && \
   mv dist/index.html "$2" && \
   rm -r dist && \

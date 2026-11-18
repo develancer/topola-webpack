@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const HtmlInlineScriptPlugin = require('html-inline-script-webpack-plugin');
 
 module.exports = {
   mode: 'production',
@@ -8,6 +8,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '',
   },
   module: {
     rules: [
@@ -19,9 +20,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      inlineSource: '.(js|css)$',
       template: 'src/template.html',
+      // inline scripts execute immediately and need the SVG container to exist
+      inject: 'body',
+      scriptLoading: 'blocking',
     }),
-    new HtmlWebpackInlineSourcePlugin(HtmlWebpackPlugin),
+    new HtmlInlineScriptPlugin(),
   ]
 };
